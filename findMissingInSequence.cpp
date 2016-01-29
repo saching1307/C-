@@ -14,7 +14,7 @@ void printMissing(int *a,int low, int max, int start , int end)
 
 	if (start + 1 == end) {
 		for (int i = a[start] + 1; i < a[end]; i++) {
-			cout<<a[i]<< " "<<endl;
+			cout<<i<< " "<<endl;
 		}
 		return;
 	}
